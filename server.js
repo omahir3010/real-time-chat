@@ -9,7 +9,7 @@ const io = require('socket.io')(http, {
         origin: '*'
     }
 });
-   
+      
 app.get('/', (req, res) => {
     res.send({message : 'OK!'});
 })
